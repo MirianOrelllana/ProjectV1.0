@@ -29,13 +29,15 @@ p {
 }
 
 .conte{
-    width: 85%;
-    max-width: 850px;
+    width: 100%;
+    max-width: 1440px;
     margin: 0 auto;
+    height: 15px;
 }
 
 .head{
-    background: yellow;
+ /*   background: #e74c3c;*/
+    background: rgb(172,22,44);
     color: black;
     padding: 2rem 0;
     position: fixed;

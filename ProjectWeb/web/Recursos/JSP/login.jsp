@@ -23,19 +23,18 @@
             <div class="row">
                 <div class="col-md-4 col-sm-4 col-xs-12"></div>
                 <div class="col-md-4 col-sm-4 col-xs-12">
-                    <form   action="ProcesaUsuario" method="doPost" class="form-contatiner">
+                    <form  method="doPost" class="form-contatiner">
                         <center><h1 class="letra">Inicia Sesión</h1><br><br></center>
                         <div class="form-group">
                             <input class="form-control form-control-lg" type="text" placeholder="user" name="txtUsuario">
                         </div>
-                        <br>
                         <div class="form-group">
                             <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password" name="txtClave">
                         </div>
-                        <center><p><button class="w3-btn w3 w3-xlarge-12px letra"><i class="w3-margin-left material-icons">local_airport</i><label class="letra">Recuperar contraseña</label></button></p></center>
+                        <center><button class="w3-btn w3 w3-xlarge-12px letra" ><i class="w3-margin-left material-icons">local_airport</i><label class="letra">Recuperar contraseña</label></button></center>
 
 
-                        <input type="submit" class="btn btn-dark btn-block" value="Iniciar">
+                        <a href="cab.jsp"  class="btn btn-dark btn-block" value="Iniciar"></a><br>
                     </form>
                 </div>
                 <div class="col-md-4 col-sm-4 col-xs-12"></div>
