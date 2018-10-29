@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 29/10/2018, 05:07:52 AM
+    Author     : shessira
+*/
+
+body{
+    font-family: georgia,times, serif;
+    color: #333;
+    font-size: 1.2rem;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 2rem;
+    line-height: 1.3em;
+    margin: 15px 0;
+    text-align: center;
+    font-weight: 300;
+}
+
+p {
+    margin-bottom: 1.6em;
+}
+
+.conte{
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.head{
+    background: #999;
+    color: white;
+    padding: 2rem 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+.head a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo-nav-conte{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    letter-spacing: 15px;
+    font-size: 1.4em;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    
+    float: left;
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 6px;
+    
+}
+.navigation ul li a:hover{
+    background: #333; 
+}
+
+.footer{
+    background: #f2f2f2;
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
